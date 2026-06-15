@@ -21,7 +21,7 @@ export function HeroSection({ onRunDemo, onViewArchitecture }: HeroSectionProps)
           <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
             <Activity className="w-4 h-4 text-primary" />
           </div>
-          <span className="font-semibold text-foreground">Incident Copilot</span>
+          <span className="font-semibold text-foreground">Signalsly</span>
         </div>
         <div className="flex items-center gap-4">
           <a href="#demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Demo</a>
@@ -61,7 +61,7 @@ export function HeroSection({ onRunDemo, onViewArchitecture }: HeroSectionProps)
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-balance leading-relaxed">
-            When production breaks at 2 AM, Incident Copilot investigates logs and traces,
+            When production breaks at 2 AM, Signalsly investigates logs and traces,
             identifies the root cause, validates a fix, and prepares a response before the team wakes up.
           </p>
 
