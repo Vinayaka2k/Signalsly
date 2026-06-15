@@ -16,7 +16,7 @@ export function ComparisonSection() {
   ];
 
   const withCopilot = [
-    { time: '2:14 AM', icon: AlertTriangle, label: 'PagerDuty alert triggers incident-copilot', color: 'text-primary' },
+    { time: '2:14 AM', icon: AlertTriangle, label: 'PagerDuty alert triggers Signalsly', color: 'text-primary' },
     { time: '2:15 AM', icon: Search, label: 'RAG pipeline searches runbooks & past incidents', color: 'text-primary' },
     { time: '2:16 AM', icon: BookOpen, label: 'Relevant context retrieved and reranked', color: 'text-primary' },
     { time: '2:17 AM', icon: Lightbulb, label: 'Hypotheses generated with evidence', color: 'text-chart-1' },
@@ -36,7 +36,7 @@ export function ComparisonSection() {
             Before & After
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            See how incident-copilot transforms your on-call experience
+            See how Signalsly transforms your on-call experience
           </p>
         </motion.div>
 
@@ -50,7 +50,7 @@ export function ComparisonSection() {
           >
             <div className="flex items-center gap-2 mb-6">
               <div className="w-3 h-3 rounded-full bg-destructive" />
-              <h3 className="text-lg font-semibold text-foreground">Without incident-copilot</h3>
+              <h3 className="text-lg font-semibold text-foreground">Without Signalsly</h3>
             </div>
             <div className="space-y-4 flex-1">
               {withoutCopilot.map((step, i) => (
@@ -82,7 +82,7 @@ export function ComparisonSection() {
           >
             <div className="flex items-center gap-2 mb-6">
               <div className="w-3 h-3 rounded-full bg-primary" />
-              <h3 className="text-lg font-semibold text-foreground">With incident-copilot</h3>
+              <h3 className="text-lg font-semibold text-foreground">With Signalsly</h3>
             </div>
             <div className="space-y-8 flex-1 py-4">
               {withCopilot.map((step, i) => (
