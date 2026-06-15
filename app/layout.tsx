@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Incident Copilot - Your Autonomous On-Call Engineer',
-  description: 'When production breaks at 2 AM, Incident Copilot investigates logs and traces, identifies the root cause, validates a fix, and prepares a response before the team wakes up.',
+  title: 'Signalsly - Your Autonomous On-Call Engineer',
+  description: 'When production breaks at 2 AM, Signalsly investigates logs and traces, identifies the root cause, validates a fix, and prepares a response before the team wakes up.',
   generator: 'v0.app',
   icons: {
     icon: [
