@@ -20,7 +20,7 @@ export function Sidebar({ currentScenario, onScenarioChange, onNewInvestigation 
           <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
             <Activity className="w-4 h-4 text-primary" />
           </div>
-          <span className="font-semibold text-sidebar-foreground">Incident Copilot</span>
+          <span className="font-semibold text-sidebar-foreground">Signalsly</span>
         </div>
       </div>
 
