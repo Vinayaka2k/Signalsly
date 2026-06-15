@@ -9,7 +9,7 @@ export function HowItWorksSection() {
       number: 1,
       icon: Search,
       title: 'Investigate',
-      description: 'When an incident triggers, incident-copilot automatically analyzes logs, traces, metrics, and deployment history to understand what went wrong.',
+      description: 'When an incident triggers, Signalsly automatically analyzes logs, traces, metrics, and deployment history to understand what went wrong.',
       details: [
         'Correlates recent deployments with error patterns',
         'Searches indexed runbooks and past incidents',
@@ -21,7 +21,7 @@ export function HowItWorksSection() {
       number: 2,
       icon: Lightbulb,
       title: 'Identify',
-      description: 'Using multi-step reasoning and evidence grounding, incident-copilot generates a root cause hypothesis with confidence scoring.',
+      description: 'Using multi-step reasoning and evidence grounding, Signalsly generates a root cause hypothesis with confidence scoring.',
       details: [
         'Chain-of-thought reasoning through evidence',
         'Cross-references similar past incidents',
@@ -33,7 +33,7 @@ export function HowItWorksSection() {
       number: 3,
       icon: BookOpen,
       title: 'Suggest',
-      description: 'Based on the identified root cause, incident-copilot suggests relevant runbooks, remediation steps, and a potential fix based on your codebase patterns.',
+      description: 'Based on the identified root cause, Signalsly suggests relevant runbooks, remediation steps, and a potential fix based on your codebase patterns.',
       details: [
         'Retrieves relevant runbooks and documentation',
         'Suggests remediation steps based on past resolutions',
@@ -56,7 +56,7 @@ export function HowItWorksSection() {
             How It Works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            Incident-copilot automates investigation and provides actionable insights for your review.
+            Signalsly automates investigation and provides actionable insights for your review.
           </p>
         </motion.div>
 
